@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://demo.auth.com
+          jwk-set-uri: https://demo.auth.com/.well-known/jwks.json
